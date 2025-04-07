@@ -1,6 +1,6 @@
-# Repositorio Cluster 
-## Universidad de los Andes 
-###  Departamento de Ingeniería Mecánica
+# Universidad de los Andes 
+##  Departamento de Ingeniería Mecánica
+### Repositorio Scripts Cluster 
 -----
 
 ## :dart: ¿Que es? ##
