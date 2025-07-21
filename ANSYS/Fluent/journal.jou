@@ -1,0 +1,29 @@
+/file/set-tui-version "24.2"                ; Define la versión del lenguaje en la TUI. 
+
+/file read-case quad_mesh_033_25.cas                  ; Lee el archivo FFF.cas.h5.
+
+;/file/auto-save/data-frequency 10 q        ; Guarda el archivo con una determinada frecuencia.
+
+/solve/initialize initialize-flow           ; Comando de inicialización.
+
+; Creación de un contorno llamado "axial_velocity_contour" para la propiedad "axial-velocity", seleccionando de la lista de superficies la región "fff_surface".
+;/display/objects/create contour axial_velocity_contour field axial-velocity surfaces-list fff_surface () q 
+
+; Crea varios archivos *.jpeg llamados "axial_velocity_animation" con una frecuencia de 1 "flow time" para el contorno "axial_velocity_contour".
+;/solve/animate/objects/create/axial_velocity_animation storage-type jpeg frequency-of flow-time flow-time-frequency 1 animate-on axial_velocity_contour q 
+
+; Configura la cantidad de pasos de tiempo en 50000.
+/solve/set/transient-controls number-of-time-steps 70000 q 
+
+; Establece el tamaño del paso de tiempo en 0.0005.
+/solve/set/transient-controls time-step-size 0.0005 q 
+
+; Define en 20 la cantidad máxima de iteraciones por paso de tiempo.
+/solve/set/transient-controls/max-iterations-per-time-step 20 q 
+
+; Inicia los cálculos para 50.000 pasos de tiempo con un máximo de 20 iteraciones.
+/solve/dual-time-iterate 70000 20 
+
+;/file/write-data intento
+
+/exit ok
