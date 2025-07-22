@@ -19,17 +19,16 @@ Este repositorio contiene scripts para la configuración del clúster y también
 - SU2
 - ANSYS
    - Fluent
-   - Mechanics
 - OpenFoam
 - Python
   - CPU
   - GPU - CUDA
 
 ## ℹ️ ¿Quieres colaborar? ##
-Dirigeté a la carpeta **Plantilla**, en esta se te pedirá la siguiente información: 
+Dirigeté al siguiente **link** en donde se te pedirá la siguiente información: 
 - Nombre del programa.
 - Versión.
 - Archivos de configuración.
 - Programas adicionales que deban ser descargados para su funcionamiento.
 
-Una vez completada esta información, sigue los siguientes pasos **(por revisar)**
+Una vez completada esta información comprobaremos que funcionen para subirlo al respositorio. 
