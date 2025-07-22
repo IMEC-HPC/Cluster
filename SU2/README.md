@@ -10,6 +10,7 @@ Para la instalación del programa se referencian los siguientes links:
 >> LINUX/MacOS: https://su2code.github.io/docs_v7/SU2-Linux-MacOS/
 
 >> Windows: https://su2code.github.io/docs_v7/SU2-Windows/
+> Versiones del software: https://github.com/su2code/SU2/releases
 
 ## **Pasos**
 1. Editar el archivo de configuración (.cfg) con los datos del caso.
