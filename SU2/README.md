@@ -13,5 +13,5 @@ Para la instalación del programa se referencian los siguientes links:
 
 ## **Pasos**
 1. Editar el archivo de configuración (.cfg) con los datos del caso.
-2. Editar el archivo de configuración del clúster (.sh) y referenciar el archivo con su respectivo nombre.
+2. Editar el archivo de configuración del clúster (.sh) y referenciar el archivo del paso 1.
 3. Editar el archivo de configuración con los recursos que se necesitan para realizar la simulación. 
